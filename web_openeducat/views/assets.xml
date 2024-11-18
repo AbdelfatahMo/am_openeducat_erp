@@ -2,7 +2,7 @@
 <odoo>
 
     <template id="snippet_id" inherit_id="website.snippets">
-        <xpath expr="//div[@id='snippet_structure']" position="before">
+        <xpath expr="//snippets[@id='snippet_structure']" position="before">
             <div class="o_panel_body">
                 <!--________________________ Snippets____________________ -->
                 <t t-snippet="web_openeducat.slider"
